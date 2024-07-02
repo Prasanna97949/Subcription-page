@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    padding: 10px;
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+}
+.container{
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+.container__free, .container__standrad, .container__premium{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.free__content, .standrad__content, .premium__content{
+    text-align: left;
+    border: solid white 1px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
